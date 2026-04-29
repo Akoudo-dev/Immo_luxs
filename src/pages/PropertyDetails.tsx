@@ -51,7 +51,7 @@ export default function PropertyDetails() {
             <div className="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between">
               <div>
                 <p className="text-sm uppercase tracking-[0.36em] text-amber-300">{property.type}</p>
-                <h1 className="mt-3 text-4xl font-semibold text-white">{property.title}</h1>
+                <h1 className="mt-3 text-2xl lg:text-3xl font-semibold text-white">{property.title}</h1>
                 <p className="mt-3 text-sm text-slate-400">{property.location}</p>
               </div>
               <div className="text-right">
@@ -69,13 +69,13 @@ export default function PropertyDetails() {
 
           <div className="grid gap-4 md:grid-cols-3">
             <div className="rounded-[28px] overflow-hidden border border-slate-800 bg-slate-900/90 shadow-xl shadow-black/15">
-              <img src={property.images[0]} alt={property.title} className="h-56 w-full object-cover" />
+              <img src={property.images[0]} alt={property.title} className="h-40 w-full object-cover" />
             </div>
             <div className="rounded-[28px] overflow-hidden border border-slate-800 bg-slate-900/90 shadow-xl shadow-black/15">
-              <img src={property.images[1]} alt={property.title} className="h-56 w-full object-cover" />
+              <img src={property.images[1]} alt={property.title} className="h-40 w-full object-cover" />
             </div>
             <div className="rounded-[28px] overflow-hidden border border-slate-800 bg-slate-900/90 shadow-xl shadow-black/15">
-              <img src={property.images[2]} alt={property.title} className="h-56 w-full object-cover" />
+              <img src={property.images[2]} alt={property.title} className="h-40 w-full object-cover" />
             </div>
           </div>
 
